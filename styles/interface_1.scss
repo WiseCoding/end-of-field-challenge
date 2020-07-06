@@ -15,11 +15,11 @@ body {
   height: 100%;
 }
 
-/*MOCKUP*/
+/*MOCKUP*/ /*
 #mockup {
-  background-image: url("../images/interface_3-Simple-Interface-03_low.png");
-  width: 1222px;
-  height: 673px;
+  background-image: url("../images/interface_1-Simple-Interface-03_low.png");
+  width: 1079px;
+  height: 459px;
   position: absolute;
   margin: auto;
   top: 0;
@@ -27,8 +27,60 @@ body {
   z-index: 10;
   pointer-events: none;
 
-  opacity: 0.8;
-}
+  opacity: 0.3;
+}*/
 
 /* Basic CSS */
-,
+html {
+  background-color: rgba(114, 109, 109, 0.096);
+}
+body {
+  width: 1080px;
+  height: 459px;
+  margin: auto;
+  background-color: #eeeeee;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.116);
+
+  .img {
+    flex: 1;
+    width: inherit;
+    height: inherit;
+
+    img {
+      width: 390px;
+      margin: 40px 60px;
+    }
+  }
+
+  .textWrap {
+    flex: 1;
+
+    .text {
+      height: 115px;
+      padding-left: 68px;
+
+      h1 {
+        font-family: "Righteous", cursive;
+        color: #303030;
+        font-size: 1.2rem;
+        padding-bottom: 14px;
+      }
+      p {
+        font-family: "Roboto", sans-serif;
+        color: #434343;
+        line-height: 1.6rem;
+      }
+    }
+  }
+}
