@@ -15,11 +15,11 @@ body {
   height: 100%;
 }
 
-/*MOCKUP*/
+/*MOCKUP*/ /*
 #mockup {
-  background-image: url("../images/interface_3-Simple-Interface-03_low.png");
-  width: 1222px;
-  height: 673px;
+  background-image: url("../images/interface_2-Simple-Interface-20_low.png");
+  width: 1078px;
+  height: 273px;
   position: absolute;
   margin: auto;
   top: 0;
@@ -27,7 +27,73 @@ body {
   z-index: 10;
   pointer-events: none;
 
-  opacity: 0.8;
-}
+  opacity: 0.1;
+}*/
 
 /* Basic CSS */
+body {
+  width: 1222px;
+  height: 673px;
+  margin: auto;
+  background-color: #f1eee9;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1078px;
+  height: 273px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.116);
+  font-style: italic;
+
+  h1 {
+    border-bottom: 2px dotted #cdcdcd;
+    color: #437378;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+  }
+
+  .namesWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #4a4d4c;
+
+    p {
+      margin: 15px 10px;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: #437378;
+      font-size: 1.7rem;
+      font-weight: bolder;
+    }
+  }
+}
+
+.links {
+  margin: 100px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    background-color: #2e3238;
+    color: white;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.116);
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+  }
+  a:hover {
+    color: rgb(255, 174, 0);
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.288);
+  }
+}
