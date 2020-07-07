@@ -29,6 +29,7 @@ _Education provided by [BeCode](https://becode.org/)_ 🎓
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [SASS](https://sass-lang.com/)
 - [Markdown](https://www.markdownguide.org/)
+- [Before-after.js](https://github.com/jotform/before-after.js/)
 
 # License 📎
 
