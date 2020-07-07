@@ -1,4 +1,5 @@
 /* Imports */
+@import url(slider.css);
 
 /* Reset */
 *,
@@ -32,18 +33,23 @@ body {
 
 /* Basic CSS */
 body {
-  width: 1222px;
-  height: 673px;
+  width: 1078px;
+  height: 273px;
   margin: auto;
   background-color: #f1eee9;
   font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.ba-slider {
+  width: 1078px;
+  height: 273px;
 }
 
 .container {
   width: 1078px;
   height: 273px;
   margin: auto;
-  margin-top: 20px;
   padding: 15px;
   background-color: #ffffff;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.116);
@@ -81,7 +87,7 @@ body {
 }
 
 .links {
-  margin: 100px;
+  margin: 50px;
   text-align: center;
 
   a {

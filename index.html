@@ -10,7 +10,7 @@
     <!--no favicon-->
     <link rel="stylesheet" type="text/css" href="styles/interface_1.css" />
 
-    <!--fonts-->
+    <!--FONTS-->
     <link
       href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
       rel="stylesheet"
@@ -22,25 +22,42 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="img">
-        <img
-          src="images/Interface_1/computer.jpg"
-          alt="Computer & keyboard setup, timer coming out of the side of the screen and reads '10s'"
-          title="Computer"
-        />
-      </div>
-      <div class="textWrap">
-        <div class="text">
-          <h1>GOOD TO GO IN SECONDS</h1>
-          <p>
-            Get started without waiting! With our friendly interface, you can
-            create server instances almost instantly, usually in under 10
-            seconds.
-          </p>
+    <div class="ba-slider">
+      <div class="container">
+        <div class="img">
+          <img
+            src="images/Interface_1/computer.jpg"
+            alt="Computer & keyboard setup, timer coming out of the side of the screen and reads '10s'"
+            title="Computer"
+          />
+        </div>
+        <div class="textWrap">
+          <div class="text">
+            <h1>GOOD TO GO IN SECONDS</h1>
+            <p>
+              Get started without waiting! With our friendly interface, you can
+              create server instances almost instantly, usually in under 10
+              seconds.
+            </p>
+          </div>
         </div>
       </div>
+      <div class="resize">
+        <img src="images/interface_1-Simple-Interface-03_hi.png" />
+      </div>
+      <span class="handle"></span>
     </div>
+
+    <!--SLIDER INDICATOR-->
+    <div class="slideIndi" title="Slide LEFT to see CSS design. Slide RIGHT to see reference picture.">
+      <p>← SEE DESIGN</p>
+      <p>← LEFT</p>
+      <p>← SLIDE →</p>
+      <p>RIGHT →</p>
+      <p>SEE IMAGE →</p>
+    </div>
+
+    <!--LINKS-->
     <div class="links">
       <a href="index.html" title="Interface 1 - Simple 03">S.Interface 1</a>
       <a href="interface_2.html" title="Interface 2 - Simple 20"
@@ -50,5 +67,16 @@
         >C.Interface 3</a
       >
     </div>
+
+    <!--SLIDER JS-->
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-2.1.3.min.js"
+    ></script>
+    <script type="text/javascript" src="scripts/slider.js"></script>
+
+    <script type="text/javascript">
+      $(".ba-slider").beforeAfter();
+    </script>
   </body>
 </html>

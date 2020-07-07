@@ -30,30 +30,50 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="mainWrap">
-        <div class="main">
-          <p>“</p>
-          <h1>
-            Combine elements and create new components and layouts with ease.
-          </h1>
-          <a href="#">VIEW STYLE GUIDE</a>
+    <div class="ba-slider">
+      <div class="container">
+        <div class="mainWrap">
+          <div class="main">
+            <p>“</p>
+            <h1>
+              Combine elements and create new components and layouts with ease.
+            </h1>
+            <a href="#">VIEW STYLE GUIDE</a>
+          </div>
+        </div>
+        <div class="imgWrap">
+          <img
+            src="images/Interface_3/planner.jpg"
+            alt="Female hand holding a pen next to a planner notebook. Box with some cosmetics stand above the notebook."
+            title="Planner"
+          />
+        </div>
+        <div class="infoWrap">
+          <p>
+            Everything you'll need to build a beautiful site for your agency,
+            consultancy or startup business.
+          </p>
         </div>
       </div>
-      <div class="imgWrap">
-        <img
-          src="images/Interface_3/planner.jpg"
-          alt="Female hand holding a pen next to a planner notebook. Box with some cosmetics stand above the notebook."
-          title="Planner"
-        />
+      <div class="resize">
+        <img src="images/interface_3-Complex-Interface-07_hi.png" />
       </div>
-      <div class="infoWrap">
-        <p>
-          Everything you'll need to build a beautiful site for your agency,
-          consultancy or startup business.
-        </p>
-      </div>
+      <span class="handle"></span>
     </div>
+
+    <!--SLIDER INDICATOR-->
+    <div
+      class="slideIndi"
+      title="Slide LEFT to see CSS design. Slide RIGHT to see reference picture."
+    >
+      <p>← SEE DESIGN</p>
+      <p>← LEFT</p>
+      <p>← SLIDE →</p>
+      <p>RIGHT →</p>
+      <p>SEE IMAGE →</p>
+    </div>
+
+    <!--LINKS-->
     <div class="links">
       <a href="index.html" title="Interface 1 - Simple 03">S.Interface 1</a>
       <a href="interface_2.html" title="Interface 2 - Simple 20"
@@ -63,5 +83,16 @@
         >C.Interface 3</a
       >
     </div>
+
+    <!--SLIDER-->
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-2.1.3.min.js"
+    ></script>
+    <script type="text/javascript" src="scripts/slider.js"></script>
+
+    <script type="text/javascript">
+      $(".ba-slider").beforeAfter();
+    </script>
   </body>
 </html>
