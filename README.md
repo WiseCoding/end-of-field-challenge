@@ -6,9 +6,9 @@ _Education provided by [BeCode](https://becode.org/)_ 🎓
 
 # Check My Results Online 👀
 
-- [**Interface 1** - _Simple 03_](https://wisecoding.github.io/end-of-field-challenge/index.html)
-- [**Interface 2** - _Simple 20_](https://wisecoding.github.io/end-of-field-challenge/interface_2.html)
-- [**Interface 3** - _Complex 07_](https://wisecoding.github.io/end-of-field-challenge/interface_3.html)
+- [**Interface 1** - _Simple 03_](https://mattiasbonte.github.io/end-of-field-challenge/index.html)
+- [**Interface 2** - _Simple 20_](https://mattiasbonte.github.io/end-of-field-challenge/interface_2.html)
+- [**Interface 3** - _Complex 07_](https://mattiasbonte.github.io/end-of-field-challenge/interface_3.html)
 
 # Interfaces
 
